@@ -23,7 +23,9 @@ From main() method we are calling solve() method which is supposed to solve the 
 
 Let me tell you how to use this template:
 
-###### Methods and their use in code:
+## Methods and their use in code:
+
+**INPUT METHODS**
 
 int x=**ni()** -to input single number
 
@@ -39,16 +41,22 @@ int[] arr=**na(int n)**  -to input array of size n i.e parameter is integer with
 
 char [][] matrix =**nm(int n,int m)** this is method is used tor inputing character matrix
 
+**OUTPUT METHODS**
+
 pn(Object o)  - **pn() method is used to print anthing on consolve 
                                  the parameter is Object is you can pass anthing.
                            It is similar as System.out.println()**
                            
 p(Object o) **Similar as System.out.print()**
 
-int x=**max( int[] arr)**  -it will find max element from array;
+**UTILITY FUNCTIONS**
+
+int x=**max( int[] arr)**  -it will find max element from array
+
 int y=**min(int [] arr)** it will find min element from array
 
 int a=**nCr(int n,int rc)** for Combinatorics 
+
 int g=**gcd(x,y)** for finding gcd
 
 **I had to implement pair class because there is no inbuilt pair class.
