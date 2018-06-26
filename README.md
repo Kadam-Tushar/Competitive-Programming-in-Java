@@ -9,29 +9,35 @@ Feel free to use these codes and if you find anything wrong then don't forget to
 
 Links:
 
-[Disjoint Set Data Structure using Arrays](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/DisjointSet.java)
+- [Disjoint Set Data Structure using Arrays](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/DisjointSet.java)
 
-[Dijkstra using Priority Queue](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Dijkstra.java)
+- [Dijkstra using Priority Queue](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Dijkstra.java)
  
- [All pair shortest paths using Floyd Warshalls (also printing all shortest paths )](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/all_pair.java)
- 
- [0-1 binary Knapsack](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/01knap.java)
+- [Sieve for n<=10^6](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/sieve.java)
 
-[Insertion-Selection-Quick-Merge Sorts codes](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/EverySort.java)
+- [Abstract Binary Search](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Absract_Binary_Search.java)
 
-[Iterative and Recursive binary Search](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/binarySearch.java)
+- [0-1 binary Knapsack](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/01knap.java)
 
-[Fractional Knap-Sack](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/fractional_knap.java)
+- [All pair shortest paths using Floyd Warshalls (also printing all shortest paths )](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/all_pair.java)
 
-[Job Sequencing Algorithm](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/job_seq.java)
+**College Practical Programs**
 
-[KrusKal's MST Algorithm using Disjoint Set](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/kruskal_disjoint.java)
+- [Insertion-Selection-Quick-Merge Sorts codes](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/EverySort.java)
 
-[Prims Algorithm for MST](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/prims.java)
+- [Iterative and Recursive binary Search](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/binarySearch.java)
 
-[N queens problem using Backtracking](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/queen.java)
+- [Fractional Knap-Sack](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/fractional_knap.java)
 
-[Travelling Salesman Problem using Dynamic Programming](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/tsp.java)
+- [Job Sequencing Algorithm](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/job_seq.java)
+
+- [KrusKal's MST Algorithm using Disjoint Set](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/kruskal_disjoint.java)
+
+- [Prims Algorithm for MST](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/prims.java)
+
+- [N queens problem using Backtracking](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/queen.java)
+
+- [Travelling Salesman Problem using Dynamic Programming](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/tsp.java)
  
 ## Fast IO for JAVA : [Link to Fast IO](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Main.java).
 
