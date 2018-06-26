@@ -7,7 +7,7 @@ Competitive programming where instead of code compatibility implementation time 
 
 Feel free to use these codes and if you find anything wrong then don't forget to report me. 
  
-## Fast IO for JAVA : [Link to Fast IO](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Main.java.)
+## Fast IO for JAVA : [Link to Fast IO](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Main.java).
 
 Java is a little bit slower than C++/C and the main factor behind this is slow console input/output.
 
