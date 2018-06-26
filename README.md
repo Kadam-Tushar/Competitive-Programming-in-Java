@@ -59,19 +59,19 @@ Let me tell you how to use this template:
 
 **INPUT METHODS**
 
-int x=**ni()** -to input single number
+int x=**ni()** -to input single number  Short form of nextInt()
 
-long x=**nl()**  -to input long number
+long x=**nl()**  -to input long number nextLong()
 
-double x=**nd()**- to input double values
+double x=**nd()**- to input double values nextDouble()
 
-String x=**ns()**- to input string
+String x=**ns()**- to input string nextString()
 
-char x=**nc()**- to input character
+char x=**nc()**- to input character  nextChar()
 
-int[] arr=**na(int n)**  -to input array of size n i.e parameter is integer with  value n. It will allocate a new array and return its reference.
+int[] arr=**na(int n)**  -to input array of size n i.e parameter is integer with  value n. It will allocate a new array and return its reference. nextArray()
 
-char [][] matrix =**nm(int n,int m)** this is method is used tor inputing character matrix
+char [][] matrix =**nm(int n,int m)** this is method is used tor inputing character matrix nextMatrix()
 
 **OUTPUT METHODS**
 
