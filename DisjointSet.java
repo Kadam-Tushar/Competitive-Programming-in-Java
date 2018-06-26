@@ -27,19 +27,15 @@ static void pn(Object o){
 	System.out.println(o);
 }
 static void create(int v){
-	P=new int[v];
-	R=new int[v];
+	P=new int[v]; R=new int[v];
 	for(int i=0;i<v;++i)   P[i]=i;
 }	
  
 static int find(int x){
-    if(x!=P[x]) P[x]=find(P[x]);
-    return P[x];
+    return P[x]=(x!=P[x]?find(P[x]):P[x]);
  }
 static void union(int x,int y){
- 	int px=find(x);
- 	int py=find(y);
- 
+ 	int px=find(x),py=find(y);
  	if(R[px]>R[py])  P[py]=px;
  	 else P[px]=py;
  	if(R[px]==R[py]) R[py]+=1;
