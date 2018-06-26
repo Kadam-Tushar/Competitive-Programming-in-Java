@@ -6,6 +6,12 @@ I had not followed Object-oriented paradigm for implementing this DS and Algorit
 Competitive programming where instead of code compatibility implementation time matters most. That's why I had tried to decrease code length in these implementations.
 
 Feel free to use these codes and if you find anything wrong then don't forget to report me. 
+
+Links:
+
+[Disjoint Set Data Structure using Arrays](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/DisjointSet.java)
+
+[Dijkstra using Priority Queue](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Dijkstra.java)
  
 ## Fast IO for JAVA : [Link to Fast IO](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Main.java).
 
