@@ -19,11 +19,13 @@ static class pair implements Comparable<pair>{
         if(this.x!=p.x) { return this.x-p.x;}
         else { return this.y-p.y;}
     }
+    public int hashCode() { return (x+" "+y).hashCode();}
+    public String toString(){ return x+" "+y;} 
     public boolean equals(pair x){ return (x.x==this.x&&x.y==this.y);}
 }
 void solve(){ 
 
-	
+	pn("Hello World!");
 }
 
 int min(int[] arr)
