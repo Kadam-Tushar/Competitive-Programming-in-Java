@@ -13,6 +13,26 @@ Links:
 
 [Dijkstra using Priority Queue](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Dijkstra.java)
  
+ [All pair shortest paths using Floyd Warshalls](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/all_pair.java)
+ 
+ [0-1 binary Knapsack](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/01knap.java)
+
+[Insertion-Selection-Quick-Merge Sorts codes](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/EverySort.java)
+
+[Iterative and Recursive binary Search](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/binarySearch.java)
+
+[Fractional Knap-Sack](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/fractional_knap.java)
+
+[Job Sequencing Algorithm](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/job_seq.java)
+
+[KrusKal's MST Algorithm using Disjoint Set](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/kruskal_disjoint.java)
+
+[Prims Algorithm for MST](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/prims.java)
+
+[N queens problem using Backtracking](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/queen.java)
+
+[Travelling Salesman Problem using Dynamic Programming](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/tsp.java)
+ 
 ## Fast IO for JAVA : [Link to Fast IO](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Main.java).
 
 Java is a little bit slower than C++/C and the main factor behind this is slow console input/output.
