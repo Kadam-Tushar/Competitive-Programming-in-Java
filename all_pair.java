@@ -39,9 +39,6 @@ class all_pair{
 		for(int i=0;i<v;++i) pa(path[i]);
 
 
-
-
-
 		for(int i=0;i<v;++i){
 
 			for(int j=0;j<v;++j){
@@ -67,8 +64,6 @@ class all_pair{
 // 1000 4 0 1000 1000
 // 2 1000 -5 0 1000
 // 1000 1000 1000 6 0
-
-
 
 	}
 static void pn(Object o){
