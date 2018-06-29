@@ -19,7 +19,7 @@ for(int i=0;i<n;++i) g.add(new ArrayList<>());
 for(int i=0;i<m;++i){
     int x=ni(),y=ni(),w=ni();
     g.get(x-1).add(new pair(w,y-1));
-    g.get(y-1).add(new pair(w-1,x-1));
+    g.get(y-1).add(new pair(w,x-1));
 }
 
 //Graph Input Ends
