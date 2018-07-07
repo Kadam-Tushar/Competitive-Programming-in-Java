@@ -19,6 +19,8 @@ Links:
 
 - [Geometry -Segments Intersections and Polygon Area from Co-ordinates](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Geomtry.java)
 
+- [Next Permutation for n! permutations (C++ equivalent)](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/next_permut.java)
+
 
 - [0-1 binary Knapsack](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/01knap.java)
 
