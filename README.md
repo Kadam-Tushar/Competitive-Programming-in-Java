@@ -13,6 +13,8 @@ Links:
 
 - [Dijkstra using Priority Queue](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Dijkstra.java)
  
+- [LCA](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/lca.java)
+
 - [Sieve for finding prime numbers  n<=10^7](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/sieve.java)
 
 - [Abstract Binary Search](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Absract_Binary_Search.java)
