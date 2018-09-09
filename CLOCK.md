@@ -83,6 +83,6 @@ output:
 
 # AUTHOR'S AND TESTER'S SOLUTIONS:
 
-Author's solution [ Java Solution ](https://ideone.com/W5WJ59)
+Author's solution [ Java Solution ](https://github.com/KJSCE-Codecell/Contests/blob/master/KPR32018/CLOCK/setter.java)
 
-Tester's solution [Python Solution](https://ideone.com/DK8bjd). 
+Tester's solution [Python Solution](https://github.com/KJSCE-Codecell/Contests/blob/master/KPR32018/CLOCK/tester.py). 
