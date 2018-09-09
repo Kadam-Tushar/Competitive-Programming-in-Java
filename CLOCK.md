@@ -2,17 +2,11 @@
 
 [Contest Link ](https://www.codechef.com/KPR32018/problems/CLOCK)
 
-**Author:** 
+**Author:**  [Tushar Kadam](https://www.codechef.com/users/cis_pie)     
 
-[ Codechef-Tushar Kadam](https://www.codechef.com/users/cis_pie)     
 
-[Github](https://github.com/Kadam-Tushar)
+**Tester:**  [Sangram Desai](https://www.codechef.com/users/sangram123)   
 
-**Tester:** 
-
-[Codechef- Sangram Desai](https://www.codechef.com/users/sangram123)   
-
-[Github](https://github.com/sangramdesai123)
 
 **Editorialist:** [Tushar Kadam](https://www.codechef.com/users/cis_pie)
 
