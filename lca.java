@@ -30,7 +30,7 @@ class Main{
         Arrays.fill(dp[0],0);
         for(int i=0;i<n;++i) dp[i][0]=par[i];
     
-        for(int i=1;i<n;++i) for(int j=1;j<32;++j) dp[i][j]=dp[dp[i][j-1]][j-1];
+        for(int j=1;j<n;++j) for(int i=1;i<32;++i) dp[i][j]=dp[dp[i][j-1]][j-1];
            
     }
     public static int lca(int u,int v){
