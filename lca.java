@@ -58,7 +58,7 @@ class Main{
         int diff=lvl[u]-lvl[v];
         for(int i=0;i<30;++i){
             if(((diff>>i)&1)>=1)
-                    u=dp[u][(1<<i)-1];
+                    u=dp[u][i];
         }
         return lca(u,v);
     }
