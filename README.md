@@ -12,6 +12,8 @@ Links:
 - [Disjoint Set Data Structure using Arrays](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/DisjointSet.java)
 
 - [Dijkstra using Priority Queue](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Dijkstra.java)
+
+- [ BIT/ Fenwick Tree ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/BIT.java)
  
 - [LCA](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/lca.java)
 
