@@ -14,6 +14,8 @@ Links:
 - [Dijkstra using Priority Queue](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Dijkstra.java)
 
 - [ BIT/ Fenwick Tree ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/BIT.java)
+
+- [ Centroid Decomposition ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/centroid.java)
  
 - [LCA](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/lca.java)
 
