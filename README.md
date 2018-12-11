@@ -31,7 +31,7 @@ Links:
 
 - [Inclusion Exclusion principle](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/inclu_exclu.java)
 
-
+- [Modular Exponentiation] (https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/modExpo.java)
 
 - [0-1 binary Knapsack](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/01knap.java)
 
