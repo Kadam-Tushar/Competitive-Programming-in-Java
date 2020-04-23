@@ -15,6 +15,8 @@ Links:
 
 - [ BIT/ Fenwick Tree ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/BIT.java)
 
+- [ Segment Tree ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/SegmentTree.java)
+
 - [ Centroid Decomposition ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/centroid.java)
  
 - [LCA](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/lca.java)
