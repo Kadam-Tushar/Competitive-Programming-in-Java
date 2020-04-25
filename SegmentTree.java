@@ -8,7 +8,7 @@ void solve() throws Exception{
 	int[] arr = {0,1,3,-2,8,-7};
 	int[] segt = new int[4*n];
 	build(1,1,n,arr,segt);
-
+	
 	pn(sum(1,1,n,3,5,segt));
     
     
