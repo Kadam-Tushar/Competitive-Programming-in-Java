@@ -50,7 +50,7 @@ void push(int v,int[] segt ,int[] lazy){
 int query(int v,int tl,int tr ,int l ,int r,int[] segt,int[] lazy){
 	if(l>r) 
 		return  Integer.MIN_VALUE;
-	if(l==tl && r==tr) 
+	if(l<=tl && tr<= r) 
 		return segt[v];
 	push(v,segt,lazy);
 	int tm = (tl+tr)/2 ; 
