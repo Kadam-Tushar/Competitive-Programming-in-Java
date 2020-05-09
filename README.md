@@ -21,6 +21,9 @@ Links:
  
 - [LCA](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/lca.java)
 
+- [nCr with mod](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/nCr.java)
+
+
 - [Sieve for finding prime numbers  n<=10^7](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/sieve.java)
 
 - [Watch variables function](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/watch.java)
