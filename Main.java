@@ -1,72 +1,80 @@
-/*input
-
-*/
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.util.*;
+import java.io.*;
+import java.math.* ;
 public class Main {
-   InputStream is;
+InputStream is;
 	PrintWriter out;
 	String INPUT = ""; 
-//class Declaration
+//class  Declaration
+
 static class pair implements Comparable<pair>{
-    int x,y;
-    pair (int i,int j)
-    { x=i; y=j;}
-    public int compareTo(pair p){
-        if(this.x!=p.x) { return this.x-p.x;}
-        else { return this.y-p.y;}
-    }
-    public int hashCode() { return (x+" "+y).hashCode();}
-    public String toString(){ return x+" "+y;} 
-    public boolean equals(pair x){ return (x.x==this.x&&x.y==this.y);}
-}
-void solve(){ 
+	int x;
+	int y;
 
-	pn("Hello World!");
-}
-
-int min(int[] arr)
-{
-    int min=Integer.MAX_VALUE;
-    for(int i=0;i<arr.length;++i)
-    {
-        if(min>arr[i]) min=arr[i];
-    }
-    return min;
-}
-int max(int[] arr)
-{
-    int max=Integer.MIN_VALUE;
-    for(int i=0;i<arr.length;++i)
-    {
-        if(max<arr[i]) max=arr[i];
-    }
-    return max;
-}
-static int gcd(int x,int y)
-{
-  if(y==0) return x;
-  return gcd(y,x%y);
-}
-static long nCr(long n,long rc)
-{
- long r=Math.min(rc,n-rc);
- long ans=1;
- for(int i=1,j=(int)n;i<=r;++i,--j)
- {
-   ans=(ans*(long)j)/((long)i);
- }
-  return ans;
-  
+	
+	pair (int i,int j)
+	{ x=i; y=j;
+	
+		
+	}
+	public int compareTo(pair p){
+		if(this.x!=p.x) { return this.x-p.x;}
+		else { return this.y-p.y;}
+	}
+	public int hashCode() { return (x+" "+y).hashCode();}
+	public String toString(){ return x+" "+y;} 
+	public boolean equals(Object o){ 
+		pair x = (pair) o ;
+		return (x.x==this.x&&x.y==this.y);}
 }
 
-void run() throws Exception
-{
+
+
+long mod  = (long)1e9 + 7;
+int inf = (int)1e9 +5;
+
+void solve() throws Exception{
+	// int t=ni();
+	// while(t-->0){
+	// 	int n=ni(),x=ni();
+	// 		ArrayList<ArrayList<Integer>> g= ng(n,n-1);
+	// 		pn(g);
+	// }
+
+}
+
+
+long pow(long a,long b){
+	long result = 1;
+	while(b>0){
+	if(b%2==1) result = (result * a) % mod;
+		b/=2;
+		a=(a*a)%mod;
+	}
+	return result;
+}
+
+
+void print(Object o){
+System.out.println(o);
+System.out.flush();
+}
+
+
+
+long gcd(long a, long b) 
+{ 
+if (b == 0) 
+return a; 
+return gcd(b, a % b);  
+}
+void run() throws Exception{
 		is = INPUT.isEmpty() ? System.in : new ByteArrayInputStream(INPUT.getBytes());
-		out = new PrintWriter(System.out);
+out = new PrintWriter(System.out);
 		
 		long s = System.currentTimeMillis();
 		solve();
@@ -75,7 +83,7 @@ void run() throws Exception
 }
 	
 	
-	public static void main(String[] args) throws Exception { new Main().run(); }
+public static void main(String[] args) throws Exception { new Main().run(); }
 	
 //output methods
 private void pn(Object o)
@@ -86,7 +94,31 @@ private void p(Object o)
 {
 	out.print(o);
 }
+private ArrayList<ArrayList<Integer>> ng(int n,int e){
+	ArrayList<ArrayList<Integer>> g = new ArrayList<>();
+	for(int i=0;i<=n;++i) g.add(new ArrayList<>());
 
+	for(int i=0;i<e;++i){
+		int u =ni(),v=ni();
+		g.get(u).add(v);
+		g.get(v).add(u);
+	}
+
+	return g ;
+}
+
+private ArrayList<ArrayList<pair>> nwg(int n,int e){
+	ArrayList<ArrayList<pair>> g = new ArrayList<>();
+	for(int i=0;i<=n;++i) g.add(new ArrayList<>());
+
+	for(int i=0;i<e;++i){
+		int u =ni(),v=ni(),w=ni();
+		g.get(u).add(new pair(w,v));
+		g.get(v).add(new pair(w,u));
+	}
+
+	return g ;
+}
 
 
 //input methods
@@ -104,6 +136,9 @@ private void p(Object o)
 		}
 		return inbuf[ptrbuf++];
 	}
+	
+	
+	
 	
 	private boolean isSpaceChar(int c) { return !(c >= 33 && c <= 126); }
 	private int skip() { int b; while((b = readByte()) != -1 && isSpaceChar(b)); return b; }
@@ -189,4 +224,125 @@ private void p(Object o)
 	}
 	
 	private void tr(Object... o) { if(INPUT.length() > 0)System.out.println(Arrays.deepToString(o)); }
-}
+	void watch(Object ... a) throws Exception{
+		int i=1;
+		print("watch starts :");
+		for(Object o : a ) {
+			//print(o);
+			boolean notfound = true;
+			if(o.getClass().isArray()){
+				
+				String type = o.getClass().getName().toString();
+				//print("type is "+type);
+				switch (type) {
+					case "[I":{
+						int[] test = (int[])o ;
+						print(i+" "+Arrays.toString(test));
+						break;
+					}
+					case "[[I":{
+						int[][] obj = (int[][])o;
+						
+						print(i+" "+Arrays.deepToString(obj));
+						break;
+					}
+					case "[J" : {
+						
+						long[] obj  = (long[])o ;
+						print(i+" "+Arrays.toString(obj));
+						break;
+					}
+					case "[[J": {
+						
+						long[][] obj = (long[][])o;
+						print(i+" "+Arrays.deepToString(obj));
+						break;
+					}
+					case "[D" :{
+						
+						double[] obj= (double[])o;
+						print(i+" "+Arrays.toString(obj));
+						break;
+					}
+					case "[[D" :{
+						
+						double[][] obj = (double[][])o;
+						print(i+" "+Arrays.deepToString(obj));
+						break;
+					}
+					case "[Ljava.lang.String": {
+						
+						String[] obj = (String[])o ;
+						print(i+" "+Arrays.toString(obj));
+						break;
+					}
+					case "[[Ljava.lang.String": {
+						
+						String[][] obj = (String[][])o ;
+						print(i+" "+Arrays.deepToString(obj));
+						break ; 
+					}
+					case "[C" :{
+						char[] obj = (char[])o ;
+						print(i+" "+Arrays.toString(obj));
+						break;
+					}
+					case "[[C" :{
+						
+						char[][] obj = (char[][])o;
+						print(i+" "+Arrays.deepToString(obj));
+						break;
+					}
+
+						
+				
+					default:{
+						print(i+" type not identified");
+						break;
+					}
+				}
+				notfound = false;
+				
+			}
+			if(o.getClass() == ArrayList.class){
+				print(i+" al: "+o);
+				notfound = false;
+			}
+			if(o.getClass() == HashSet.class){
+				print(i+" hs: "+o);
+				notfound = false;
+			}
+			if(o.getClass() == TreeSet.class){
+				print(i+" ts: "+o);
+				notfound = false;
+			}
+			if(o.getClass() == TreeMap.class){
+				print(i+" tm: "+o);
+				notfound = false;
+			}
+			if(o.getClass() == HashMap.class){
+				print(i+" hm: "+o);
+				notfound = false;
+			}
+			if(o.getClass() == LinkedList.class){
+				print(i+" ll: "+o);
+				notfound = false;
+			}
+			if(o.getClass() == PriorityQueue.class){
+				print(i+" pq : "+o);
+				notfound = false;
+			}
+			if(o.getClass() == pair.class){
+				print(i+" pq : "+o);
+				notfound = false;
+			}
+			
+			if(notfound){
+				print(i+" unknown: "+o);
+			}
+			i++;
+		}
+		print("watch ends ");
+	}
+
+}	
