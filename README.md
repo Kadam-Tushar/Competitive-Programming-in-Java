@@ -32,6 +32,9 @@ Links:
 
 - [BFS](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/bfs.java)
 
+- [DFS](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/dfs.java)
+
+
 - [Geometry -Segments Intersections and Polygon Area from Co-ordinates](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Geomtry.java)
 
 - [Next Permutation for n! permutations (C++ equivalent)](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/next_permut.java)
