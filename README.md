@@ -30,6 +30,8 @@ Links:
 
 - [Abstract Binary Search](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Absract_Binary_Search.java)
 
+- [BFS](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/bfs.java)
+
 - [Geometry -Segments Intersections and Polygon Area from Co-ordinates](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Geomtry.java)
 
 - [Next Permutation for n! permutations (C++ equivalent)](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/next_permut.java)
