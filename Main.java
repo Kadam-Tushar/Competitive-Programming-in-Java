@@ -31,9 +31,10 @@ static class pair implements Comparable<pair>{
 		pair x = (pair) o ;
 		return (x.x==this.x&&x.y==this.y);}
 }
-
-
-
+// int[] dx = {0,0,1,-1};
+// int[] dy = {1,-1,0,0};
+// int[] ddx = {0,0,1,-1,1,-1,1,-1};
+// int[] ddy = {1,-1,0,0,1,-1,-1,1};
 long mod  = (long)1e9 + 7;
 int inf = (int)1e9 +5;
 
