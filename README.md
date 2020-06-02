@@ -1,3 +1,7 @@
+[![Open Source Helpers](https://www.codetriage.com/kadam-tushar/data-structures-and-algorithms-in-java/badges/users.svg)](https://www.codetriage.com/kadam-tushar/data-structures-and-algorithms-in-java)
+
+
+
 # Data-Structures-and-Algorithms-in-Java
 This repository contains all the important data structures and algorithms that I use in Competitive Programming. 
 
