@@ -35,16 +35,10 @@ static class pair implements Comparable<pair>{
 // int[] dy = {1,-1,0,0};
 // int[] ddx = {0,0,1,-1,1,-1,1,-1};
 // int[] ddy = {1,-1,0,0,1,-1,-1,1};
-long mod  = (long)1e9 + 7;
+long mod  = (long)1e9 + 9;
 int inf = (int)1e9 +5;
 
 void solve() throws Exception{
-	// int t=ni();
-	// while(t-->0){
-	// 	int n=ni(),x=ni();
-	// 		ArrayList<ArrayList<Integer>> g= ng(n,n-1);
-	// 		pn(g);
-	// }
 
 }
 
