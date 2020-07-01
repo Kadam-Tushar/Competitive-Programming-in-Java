@@ -40,6 +40,8 @@ Links:
 
 - [DFS](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/dfs.java)
 
+- [Fractions ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/fractions.java)
+
 
 - [Geometry -Segments Intersections and Polygon Area from Co-ordinates](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Geomtry.java)
 
