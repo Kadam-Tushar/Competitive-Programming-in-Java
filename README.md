@@ -25,6 +25,8 @@ Links:
  
 - [LCA](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/lca.java)
 
+- [LIS : Longest Incresing Subsequence O(nlogn) ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/LIS.java)
+
 - [nCr with mod](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/nCr.java)
 
 - [String hashing - Rolling Polynomial Hash](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/stringHash.java)
