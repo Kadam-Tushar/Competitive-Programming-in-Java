@@ -152,7 +152,7 @@
 
       - ```String x=ns()``` - to input string nextString()
 
-      - ```char x=**nc()``` - to input character  nextChar()
+      - ```char x=nc()``` - to input character  nextChar()
 
       - ```int[] arr=na(int n)```  -to input array of size n i.e parameter is integer with  value n. It will allocate a new array and return its reference. nextArray()
 
