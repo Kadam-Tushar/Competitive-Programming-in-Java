@@ -13,53 +13,118 @@ Feel free to use these codes and if you find anything wrong then don't forget to
 
 Links:
 
-- [Disjoint Set Data Structure using Arrays](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/DisjointSet.java)
+<details>
+<summary> Data Structures </summary>
 
-- [Dijkstra using Priority Queue](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Dijkstra.java)
+<div style="padding-left: 20px"> 
+<details>
+<summary>  Graphs </summary>
+
+ - [Disjoint Set Data Structure using Arrays](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/DisjointSet.java)
+
+ - [ Centroid Decomposition ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/centroid.java)
+  
+</details>
+</div>
+
+<div style="padding-left: 20px"> 
+<details>
+<summary>  Trees </summary>
+
+- [LCA - Lowest Common Ancestor](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/lca.java)
 
 - [ BIT/ Fenwick Tree ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/BIT.java)
 
-- [ Segment Tree ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/SegmentTree.java)
+<div style="padding-left: 25px"> 
+<details>
+<summary>  Segment Tree  </summary>
 
-- [ Centroid Decomposition ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/centroid.java)
- 
-- [LCA](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/lca.java)
+- [Basic](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/SegmentTree.java)
 
-- [LIS : Longest Incresing Subsequence O(nlogn) ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/LIS.java)
+- [Range Updates (add)](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/SegmentTree_Lazy_add.java)
 
-- [nCr with mod](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/nCr.java)
+- [Range Updates (assign)](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/SegmentTree_Lazy_Assign.java)
 
-- [String hashing - Rolling Polynomial Hash](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/stringHash.java)
+- [Kth Order statistic on subarray (No updates allowed)](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/SegmentTree_KthOrder.java)
 
 
-- [Sieve for finding prime numbers  n<=10^7](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/sieve.java)
 
-- [Watch variables function](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/watch.java)
+</details>
 
-- [Abstract Binary Search](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Absract_Binary_Search.java)
+
+
+</div>
+
+</details>
+</div>
+  
+</details>
+
+<details>
+
+<summary> Algorithms </summary>
+
+- [ Binary Search](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Absract_Binary_Search.java)
 
 - [BFS](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/bfs.java)
 
 - [DFS](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/dfs.java)
 
-- [Fractions ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/fractions.java)
 
+- [Dijkstra using Priority Queue](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Dijkstra.java)
+
+- [ Floyd Warshalls  (also printing all shortest paths )](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/all_pair.java)
+
+
+- [LIS : Longest Incresing Subsequence O(nlogn) ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/LIS.java)
+
+- [Inclusion Exclusion principle](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/inclu_exclu.java)
+
+
+
+
+
+
+
+ 
+  
+</details>
+
+
+<details>
+<summary> Strings </summary>
+
+- [String hashing - Rolling Polynomial Hash](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/stringHash.java)
+</details>
+
+<details>
+<summary> Maths related </summary>
+
+ - [Sieve for finding prime numbers  n<=10^7](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/sieve.java)
+
+- [ Handling Fractions](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/fractions.java)
 
 - [Geometry -Segments Intersections and Polygon Area from Co-ordinates](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Geomtry.java)
+
+- [nCr with mod](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/nCr.java)
 
 - [Next Permutation for n! permutations (C++ equivalent)](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/next_permut.java)
 
 - [Selection Of r Things from n things ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/select_r_things.java)
 
-- [Inclusion Exclusion principle](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/inclu_exclu.java)
 
-- [Modular Exponentiation](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/power.java)
+- [Power function -Modular ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/power.java)
 
-- [0-1 binary Knapsack](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/01knap.java)
 
-- [All pair shortest paths using Floyd Warshalls (also printing all shortest paths )](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/all_pair.java)
 
-**College Practical Programs**
+</details>
+
+<br>
+
+- [Debug-Watch function](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/watch.java)
+
+
+**Programs for college practicals**
 
 - [Insertion-Selection-Quick-Merge Sorts codes](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/EverySort.java)
 
@@ -76,6 +141,7 @@ Links:
 - [N queens problem using Backtracking](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/queen.java)
 
 - [Travelling Salesman Problem using Dynamic Programming](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/tsp.java)
+
  
 ## Fast IO for JAVA : [Link to Fast IO](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Main.java).
 
