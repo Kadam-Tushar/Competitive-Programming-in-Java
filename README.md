@@ -16,47 +16,27 @@ Links:
 <details>
 <summary> Data Structures </summary>
 
-<div style="padding-left: 20px"> 
-<details>
-<summary>  Graphs </summary>
-
  - [Disjoint Set Data Structure using Arrays](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/DisjointSet.java)
 
  - [ Centroid Decomposition ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/centroid.java)
   
-</details>
-</div>
 
-<div style="padding-left: 20px"> 
-<details>
-<summary>  Trees </summary>
 
 - [LCA - Lowest Common Ancestor](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/lca.java)
 
 - [ BIT/ Fenwick Tree ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/BIT.java)
 
-<div style="padding-left: 25px"> 
-<details>
-<summary>  Segment Tree  </summary>
-
-- [Basic](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/SegmentTree.java)
-
-- [Range Updates (add)](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/SegmentTree_Lazy_add.java)
-
-- [Range Updates (assign)](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/SegmentTree_Lazy_Assign.java)
-
-- [Kth Order statistic on subarray (No updates allowed)](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/SegmentTree_KthOrder.java)
 
 
+- [Segment Tree : Basic](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/SegmentTree.java)
 
-</details>
+- [Segment Tree : Range Updates (add)](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/SegmentTree_Lazy_add.java)
+
+- [ Segment Tree : Range Updates (assign)](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/SegmentTree_Lazy_Assign.java)
+
+- [ Segment Tree : Kth Order statistic on subarray (No updates allowed)](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/SegmentTree_KthOrder.java)
 
 
-
-</div>
-
-</details>
-</div>
   
 </details>
 
