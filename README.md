@@ -1,5 +1,6 @@
 
-![Java_Icon](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/java_icon)
+
+![cp_icon](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Competitive-Programming.jpg)  
 
 
 
