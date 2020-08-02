@@ -1,14 +1,18 @@
 
 
-![cp_icon](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Competitive-Programming.jpg)  
+
 
 
 
 # Competitive Programming in Java
 
+![cp_icon](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Competitive-Programming.jpg)  
+
 - This repository contains all the important data structures and algorithms that I use in Competitive Programming. 
 
-- Feel free to use these codes 
+- I have ```cis_pie``` as my username on all coding platforms. You can view me on [Codechef](https://www.codechef.com/users/cis_pie) or [Codeforces](https://codeforces.com/profile/cis_pie).  
+
+- Feel free to use these codes and let me know if you find any bug. 
 
 
 
@@ -136,40 +140,39 @@
 
 ## Documentation of methods from this template :
 
-**INPUT METHODS**
+ - **INPUT METHODS**
 
-- ```int x=ni()``` -to input single number  Short form of nextInt()
+      - ```int x=ni()``` -to input single number  Short form of nextInt()
 
-- ```long x=nl() ```  -to input long number nextLong()
+      - ```long x=nl() ```  -to input long number nextLong()
 
-- ```double x=nd()``` - to input double values nextDouble()
+      - ```double x=nd()``` - to input double values nextDouble()
 
-- ```String x=ns()``` - to input string nextString()
+      - ```String x=ns()``` - to input string nextString()
 
-- ```char x=**nc()``` - to input character  nextChar()
+      - ```char x=**nc()``` - to input character  nextChar()
 
-- ```int[] arr=na(int n)```  -to input array of size n i.e parameter is integer with  value n. It will allocate a new array and return its reference. nextArray()
+      - ```int[] arr=na(int n)```  -to input array of size n i.e parameter is integer with  value n. It will allocate a new array and return its reference. nextArray()
 
-- ```char [][] matrix =nm(int n,int m)``` this is method is used tor inputing character matrix nextMatrix()
+      - ```char [][] matrix =nm(int n,int m)``` this is method is used tor inputing character matrix nextMatrix()
 
-- ```gcd(x,y)```  - to find gcd using euclidean algorithm
  
 
-**OUTPUT METHODS**
+- **OUTPUT METHODS**
 
-- ```pn(Object o)``` - method is used to print anthing on console the parameter is Object is you can pass anthing. It is similar as ```System.out.println()```.
-                           
-- ```p(Object o)```- Similar as ```System.out.print()```
+  - ```pn(Object o)``` - method is used to print anthing on console the parameter is Object is you can pass anthing. It is similar as ```System.out.println()```.
+                              
+  - ```p(Object o)```- Similar as ```System.out.print()```
 
-**UTILITY FUNCTIONS**
+- **UTILITY FUNCTIONS**
 
-- ```int x=max( int[] arr)```  -it will find max element from array
+  - ```int x=max( int[] arr)```  -it will find max element from array.
 
-- ```int y=min(int [] arr)``` it will find min element from array
+  - ```int y=min(int [] arr)``` it will find min element from array.
 
-- ```int g=gcd(x,y)``` for finding gcd
+  - ```int g=gcd(x,y)``` for finding gcd.
 
-- Implemented pair class because there is no inbuilt pair class.
-You can use the pair in Hashed Collections as well as Tree Collections because ```hashCode()``` and ```compareTo()``` methods are implemented in this pair class
+  - Implemented pair class because there is no inbuilt pair class.
+      You can use the pair in Hashed Collections as well as Tree Collections because ```hashCode()``` and ```compareTo()``` methods are implemented in this pair class.
 
 
