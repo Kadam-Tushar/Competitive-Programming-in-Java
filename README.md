@@ -50,15 +50,17 @@ Links:
 
 - [DFS](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/dfs.java)
 
+- [Kruskal's MST Algorithm using Disjoint Set Union](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/kruskal_disjoint.java)
+
 
 - [Dijkstra using Priority Queue](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Dijkstra.java)
 
-- [ Floyd Warshalls  (also printing all shortest paths )](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/all_pair.java)
+- [ Floyd Warshalls  (with all shortest paths )](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/all_pair.java)
 
 
 - [LIS : Longest Incresing Subsequence O(nlogn) ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/LIS.java)
 
-- [Inclusion Exclusion principle](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/inclu_exclu.java)
+- [PIE : Principle of Inclusion Exclusion](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/inclu_exclu.java)
 
 
 
@@ -101,53 +103,46 @@ Links:
 
 <br>
 
+**Miscellaneous**
+
 - [Debug-Watch function](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/watch.java)
 
+- [Java template for Competitive Programming](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Main.java)
 
-**Programs for college practicals**
 
-- [Insertion-Selection-Quick-Merge Sorts codes](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/EverySort.java)
 
-- [Iterative and Recursive binary Search](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/binarySearch.java)
 
-- [Fractional Knap-Sack](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/fractional_knap.java)
 
-- [Job Sequencing Algorithm](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/job_seq.java)
 
-- [KrusKal's MST Algorithm using Disjoint Set](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/kruskal_disjoint.java)
 
-- [Prims Algorithm for MST](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/prims.java)
 
-- [N queens problem using Backtracking](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/queen.java)
 
-- [Travelling Salesman Problem using Dynamic Programming](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/tsp.java)
+
 
  
-## Fast IO for JAVA : [Link to Fast IO](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Main.java).
+## Fast IO for JAVA : [Template](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Main.java).
 
-Java is a little bit slower than C++/C and the main factor behind this is slow console input/output.
+ - Java is a little bit slower than C++/C and the main factor behind this is slow console input/output.
 
-Java's Scanner, as well as BufferedReader class, is too slow. So the best option is creating your own input-output classes.
+- Java's Scanner, as well as BufferedReader class, is too slow. So the best option is creating your own input-output classes.
 
-I had never got Time Limit Exceed Error (i.e Your code is taking too much time because of an inefficient/wrong algorithm )  because of  **JAVA** after using this template. 
+- I had never faced Time Limit Exceed Error (i.e  Code  takes too much time because of an inefficient/wrong algorithm ) after I started using this template. 
 
-I had taken this template from legendary coder @uwi.
 
-You have to write all your code in solve() method.
+- To use this template you have to write all your code in solve() method.
 
-From main() method we are calling solve() method which is supposed to solve the asked problem.
+- From main() method we are calling solve() method which is supposed to solve the asked problem.
 
-Let me tell you how to use this template:
 
-## Methods and their use in code:
+## Documentation of methods from this template :
 
 **INPUT METHODS**
 
-int x=**ni()** -to input single number  Short form of nextInt()
+- ```int x=ni()``` -to input single number  Short form of nextInt()
 
-long x=**nl()**  -to input long number nextLong()
+- ```long x=nl() ```  -to input long number nextLong()
 
-double x=**nd()**- to input double values nextDouble()
+- ```double x=nd()``` - to input double values nextDouble()
 
 String x=**ns()**- to input string nextString()
 
