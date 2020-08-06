@@ -1,13 +1,12 @@
-long[] bit;
+ /* 1 indexed 
+to insert elements use update(arr[i],1);
+
+ */
+long[] bit=new long[8+2];
 void rangeUpdate(int l,int r,long del){
     //you can not use rangeUpdate and RangeQuery at same time 
     //because both have different notions for bit[] 
-    // 1 indexed 
-    int n= 5 ;
-    bit = new long[n+5];
-
-    //add elements in bit by update(arr[i],1);
-
+   
     update(l,del);
     update(r+1,-del);
 }
