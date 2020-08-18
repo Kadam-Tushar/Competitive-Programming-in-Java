@@ -91,7 +91,13 @@
 
 - [ Handling Fractions](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/fractions.java)
 
+
+- [Rounding Doubles to x-places](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/roundDouble.java)
+
+
 - [Geometry -Segments Intersections and Polygon Area from Co-ordinates](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Geomtry.java)
+
+- [Geometry -Closest pair of Points ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/closestPairPoints.java)
 
 - [nCr with mod](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/nCr.java)
 
@@ -101,6 +107,7 @@
 
 
 - [Power function -Modular ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/power.java)
+
 
 
 
