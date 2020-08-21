@@ -108,6 +108,7 @@
 
 - [Power function -Modular ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/power.java)
 
+- [Matrix Exponentiation ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/matrix_Exponentiation.java)
 
 
 
