@@ -1,19 +1,22 @@
 import java.util.*;
 
 class Main{
-     static ArrayList<ArrayList<Integer>> g;
+    static int[][] g;
     static int[] lvl,par;
     static int[][] dp;
+    static int[][][] g;
+    static int[] from,to,wt;
     public static void main (String[] args) {
-        Scanner sc=new Scanner(System.in);
-         g=new ArrayList<>();
-        int n=sc.nextInt(),m=sc.nextInt();
-        for(int i=0;i<n;++i) g.add(new ArrayList<>());
+        
+        n= ni();m=n-1;
+        from = new int[m];  to =  new int[m]; 
+
         for(int i=0;i<m;++i){
-            int x=sc.nextInt(),y=sc.nextInt();
-            g.get(x).add(y);
-            g.get(y).add(x);
+            from[i]=ni()-1; to[i]=ni()-1; 
         }
+        //0 based index hence n-1
+        g = nwg(n-1,m,from,to,true);
+
               
           // This is 0 based indexing
             System.out.println(lca(4,5));
@@ -64,8 +67,8 @@ int lca(int u,int v){
 }
 void dfs(int s,int p){
     par[s]=p;
-    ArrayList<Integer> adj=g.get(s);
-    for(int x:adj){
+    
+    for(int x:g[s]){
         if(x==p) continue;
         
         lvl[x]=lvl[s]+1;
