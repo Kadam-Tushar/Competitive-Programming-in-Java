@@ -12,7 +12,8 @@ void solve{
     
     
     /*
-    to get equals 
+    next higher of arr[i] is first element after arr[i] which >= arr[i] 
+    you can make it strictly > arr[i] by toggling '=' sign
     */
     for(int i=0;i<n;++i){
         if( ll.isEmpty() || arr[ll.peekLast()] > arr[i]){
