@@ -21,6 +21,9 @@
 <details>
 <summary> Data Structures </summary>
 
+ - [Next smaller and bigger element using Stack in array O(n)](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/nextSmallerBigger.java)
+
+
  - [Disjoint Set Data Structure using Arrays](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/DisjointSet.java)
 
  - [ Centroid Decomposition ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/centroid.java)
