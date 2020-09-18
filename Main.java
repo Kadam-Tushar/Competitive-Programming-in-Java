@@ -52,6 +52,7 @@ void solve() throws Exception {
 
 
 
+
 long pow(long a, long b) {
     long result = 1;
     while (b > 0) {
@@ -106,7 +107,7 @@ private int[][][] nwg(int n, int e, int[] from, int[] to, boolean f){
         cnt[from[i]]++;
         if(f)cnt[to[i]]++;
     }
-    for(int i = 0; i< n; i++)g[i] = new int[cnt[i]][];
+    for(int i = 0; i<= n; i++)g[i] = new int[cnt[i]][];
     for(int i = 0; i< e; i++){
         g[from[i]][--cnt[from[i]]] = new int[]{to[i], i, 0};
         if(f) g[to[i]][--cnt[to[i]]] = new int[]{from[i], i, 1};
