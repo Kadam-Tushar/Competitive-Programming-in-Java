@@ -77,12 +77,15 @@ void run() throws Exception {
         System.err.println(System.currentTimeMillis() - s + "ms");
 }
 public static void main(String[] args) throws Exception {
-    new Main().run();
+    boolean memory = false ;
+    if(memory) new Thread(null, new Runnable() {public void run(){try{new Main().run();}catch(Exception e){e.printStackTrace();System.exit(1);}}}, "1", 1 << 28).start();
+    else new Main().run();
+    
 }
  
 //output methods
 private void dbg(Object... o){ System.err.println(Arrays.deepToString(o));}
-void p(Object... o){for(Object oo:o)out.print(oo+" ");}
+void p(Object... o){for(Object oo:o)out.print}
 void pn(Object... o){for(int i = 0; i< o.length; i++)out.print(o[i]+(i+1 < o.length?" ":"\n"));}
 void pni(Object... o){for(Object oo:o)out.print(oo+" ");out.println();out.flush();}
  
