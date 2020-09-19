@@ -1,78 +1,94 @@
-import java.util.*;
+int[][] g ;
+int[] lvl;
+int[][] par ; 
+int dfs_time ;
+int[] st,end;
+int n,m;
 
-class Main{
-    static int[][] g;
-    static int[] lvl,par;
-    static int[][] dp;
-    static int[][][] g;
-    static int[] from,to,wt;
-    public static void main (String[] args) {
-        
-        n= ni();m=n-1;
-        from = new int[m];  to =  new int[m]; 
+void solve() throws Exception {
+ n=ni(); m=n-1;
 
-        for(int i=0;i<m;++i){
-            from[i]=ni()-1; to[i]=ni()-1; 
-        }
-        //0 based index hence n-1
-        g = nwg(n-1,m,from,to,true);
+// everything is 0-based indexing
+int[] to = new int[m]; int[] from = new int[m];
+for(int i=0;i<m;++i){
+    int x=ni()-1,y=ni()-1;
+    from[i]=x;to[i]=y;
+}
 
-              
-          // This is 0 based indexing
-            System.out.println(lca(4,5));
-       
-        
-        
-        
-    }
+g = ng(n,n-1,from,to,true);
+init();
+int u =2;
+int v =10;
+
+//lca(9,10) = 3 lca(3,11) = 3 , lca(9,11) = 3 ,lca(2,10) = 1
+
+/*
+tree : 
+12
+1 2
+1 3
+1 4
+3 5
+3 6
+3 7
+5 8
+5 9
+6 10
+7 11
+7 12
+*/
+
+u--; v--;
+pn(lca(u,v)+1);
+
+
+
+
+}
 void init(){
-    lvl=new int[n]; par=new int[n]; dp=new int[n][32];
-    for(int i=0;i<n;++i) Arrays.fill(dp[i],-1);
-    
-     dfs(0,0);
-    Arrays.fill(dp[0],0);
-    for(int i=0;i<n;++i) dp[i][0]=par[i];
-
-    for(int j=1;j<32;++j) for(int i=1;i<n;++i) dp[i][j]=dp[ dp[i][j-1] ][ j-1 ];
-       
+    par = new int[n][20];
+    lvl = new int[n];
+    st = new int[n]; end = new int[n];
+    dfs_time = 0 ;
+// here it is necessary to make par of root as root cause all parents of root at each height is root only
+    lca_dfs(0,0);
 }
-int lca(int u,int v){
- 
-    
-    if(u==v) return u;
-    if(lvl[u]==lvl[v]){
-        for(int i=31;i>=0;--i){
-        
-            if(dp[u][i]!=dp[v][i]){
-            
-                if(dp[dp[u][i]][0]==dp[dp[v][i]][0])
-                {
-                    return dp[dp[u][i]][0];
-                }
-                return lca(dp[u][i],dp[v][i]);
-            }
-        }   
-        return dp[u][0];
+void lca_dfs(int s,int p){
+    st[s] = dfs_time ;
+    dfs_time++; 
+
+    par[s][0] = p;
+    for(int i=1;i<20;++i){
+        par[s][i] = par[par[s][i-1]][i-1];
     }
 
-    int max=lvl[u]>lvl[v]?u:v;
-    int min=lvl[u]<lvl[v]?u:v;
-    u=max;v=min;
-    int diff=lvl[u]-lvl[v];
-    for(int i=0;i<30;++i){
-        if(((diff>>i)&1)>=1)
-                u=dp[u][i];
-    }
-    return lca(u,v);
-}
-void dfs(int s,int p){
-    par[s]=p;
-    
-    for(int x:g[s]){
+    for(int x: g[s]){
         if(x==p) continue;
-        
-        lvl[x]=lvl[s]+1;
-        dfs(x,s);
+        lvl[x] = lvl[s] + 1 ;
+        lca_dfs(x,s);
     }
-}    
+
+    end[s]  = dfs_time ;
+    dfs_time++;
 }
+
+boolean ancestor(int u,int v){
+    // is u is some ancestor of v
+    return (st[v] > st[u] && end[v] < end[u]);
+}
+
+int lca(int u,int v){
+
+    if(ancestor(u,v)) return u;
+    if(ancestor(v,u)) return v;
+
+    for(int i=19;i>=0;--i){
+        if(!ancestor(par[u][i],v)){
+            u =  par[u][i];
+        }
+    }
+
+
+    return par[u][0];
+}
+

@@ -32,6 +32,8 @@
 
 - [LCA - Lowest Common Ancestor](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/lca.java)
 
+- [Virtual Tree](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/virtualTree.java)
+
 - [ BIT/ Fenwick Tree ](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/BIT.java)
 
 
