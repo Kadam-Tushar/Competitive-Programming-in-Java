@@ -170,6 +170,7 @@
       - ```int[] arr=na(int n)```  -to input array of size n i.e parameter is integer with  value n. It will allocate a new array and return its reference. nextArray()
 
       - ```char [][] matrix =nm(int n,int m)``` this is method is used tor inputing character matrix nextMatrix()
+      - Refer [this](https://github.com/Kadam-Tushar/Competitive-Programming-in-Java/issues/1) for inputs which are EOF terminated. 
 
  
 
