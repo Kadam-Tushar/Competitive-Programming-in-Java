@@ -1,4 +1,4 @@
-
+  
 
 
 
@@ -8,11 +8,14 @@
 
 ![cp_icon](https://github.com/Kadam-Tushar/Data-Structures-and-Algorithms-in-Java/blob/master/Competitive-Programming.jpg)  
 
+- If this repo gave you even a tiny smidge of joy or help, hit it with a shiny star ⭐! 
+
 - This repository contains all the important data structures and algorithms that I use in Competitive Programming. 
 
 - I have ```cis_pie``` as my username on all coding platforms. You can view me on [Codechef](https://www.codechef.com/users/cis_pie) or [Codeforces](https://codeforces.com/profile/cis_pie).  
 
-- Feel free to use these codes and let me know if you find any bug. 
+- Feel free to use these codes and let me know if you find any bug.
+
 
 
 
